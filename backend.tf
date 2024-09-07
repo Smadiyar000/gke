@@ -1,6 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "techtorialgke1"
+   bucket  = "gke-tterraform-beckend-ts"
    prefix  = "terraform/state"
  }
 }
